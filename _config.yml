@@ -27,7 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://david-as-a-service.github.io"
 
 # Build settings
-theme: minima
+theme: hacker
 plugins:
   - jekyll-feed
 
