@@ -30,7 +30,6 @@ url: "https://davidasaservice.com" # the base hostname & protocol for your site,
 remote_theme: jekyll/minima@1e8a445
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
 
 permalink: /:slug
 
