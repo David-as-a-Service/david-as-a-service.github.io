@@ -20,8 +20,8 @@
 
 title: David as a Service
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  IT and other posts
+#description: >- # this means to ignore newlines until "baseurl:"
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://davidasaservice.com" # the base hostname & protocol for your site, e.g. http://example.com
 #url: "https://david-as-a-service.github.io"
@@ -32,6 +32,7 @@ plugins:
   - jekyll-remote-theme
 
 permalink: /:slug
+hide_site_feed_link: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
