@@ -2,22 +2,6 @@
 layout: default
 ---
 
-<style>
-    .date-pill {
-  display: inline-block;
-  background-color: #2dd000;
-  color: #333;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-size: 0.9em;
-  margin-right: 10px;
-  font-weight: 500;
-  font-size: 0.8em; 
-
-}
-
-</style>
-
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -26,7 +10,6 @@ layout: default
     {% for post in site.posts %}
 
         <h2>
-        <span class="date-pill">{{ post.date | date: "%b %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       
